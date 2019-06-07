@@ -1,0 +1,34 @@
+﻿.col {
+    background-color: #9dc1c7;
+    border: 2px solid #fff;
+    color: #000000;
+    text-align: center;
+}
+.hcolumn {
+    background-color: #57baca;
+}
+
+.paging {
+
+    margin: 1px;
+    display: inline;
+    padding:10px;
+    background-color: #9dc1c7;
+
+}
+
+
+.btn-delete{
+    background-color: #b64e4e
+}
+
+.main-content{
+    margin-top: 40px;
+}
+.active-page{
+    color:red
+}
+
+.container{
+    margin-bottom:40px
+}

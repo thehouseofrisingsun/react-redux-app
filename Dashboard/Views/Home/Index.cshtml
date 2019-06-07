@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="~/style/site.css">
+    <link rel="stylesheet" href="~/style/spinner.css">
+    <script type="text/javascript">
+        constants = {
+            page: '@Url.RouteUrl("DefaultApi", new {controller = "Category", action = "category" })',
+            venue: '@Url.RouteUrl("DefaultApi", new { controller = "Venue" , action ="venue"})',
+            city: '@Url.RouteUrl("DefaultApi", new { controller = "Venue" , action ="city"})',
+            venuePage: '@Url.RouteUrl("DefaultApi", new { controller = "Venue", action ="venuePage"})'
+        }
+    </script>
+    <title>Index</title>
+</head>
+<body>
+    <div id="content">
+    </div>
+    <script type="text/javascript" src="@Url.Content("~/assets/bundle.js")"></script>
+</body>
+</html>
