@@ -74,7 +74,7 @@ class CategoryList extends React.Component {
                     <MDBContainer>
                         <MDBRow>
                             <MDBCol className="hcolumn">Id</MDBCol>
-                            <MDBCol className="hcolumn">Name</MDBCol>
+                            <MDBCol className="hcolumn">Category name</MDBCol>
                             <MDBCol className="hcolumn">Parent category name</MDBCol>
                             <MDBCol className="hcolumn">Actions</MDBCol>
                         </MDBRow>
