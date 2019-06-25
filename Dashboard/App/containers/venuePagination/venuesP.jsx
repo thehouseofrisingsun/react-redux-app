@@ -71,7 +71,7 @@ class VenuePagePagination extends React.Component {
         });
         return (<div>
             {this.state.redirectToAddVenuePage && <Redirect to="/venue" />}
-            <h2>Venues</h2>
+            <h2>Venues with Pagination</h2>
             {this.props.loading ? (
                 <Spinner />
             ) : (
